@@ -11,8 +11,7 @@ version "0.3.9"
 
   def install
     system "cargo", "build", "--release", "-p", "dbtx-cli"
-    system "cargo", "build", "--release", "-p", "dbtx-runner",
-           "--no-default-features", "--features", "duckdb-cli,sqlite-cli"
+    system "cargo", "build", "--release", "-p", "dbtx-runner"
 
     bin.install "target/release/dbtx"
     bin.install "target/release/dbtx-runner"
@@ -23,4 +22,3 @@ version "0.3.9"
     system "#{bin}/dbtx-runner", "--help"
   end
 end
-

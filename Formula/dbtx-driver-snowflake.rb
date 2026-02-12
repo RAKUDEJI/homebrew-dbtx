@@ -11,8 +11,7 @@ version "0.3.9"
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "-p", "dbtx-runner",
-           "--no-default-features", "--features", "snowflake-cli"
+    system "cargo", "build", "--release", "-p", "dbtx-runner"
 
     bin.install "target/release/dbtx-runner" => "dbtx-runner-snowflake"
   end
@@ -29,4 +28,3 @@ version "0.3.9"
     system "#{bin}/dbtx-runner-snowflake", "--help"
   end
 end
-
