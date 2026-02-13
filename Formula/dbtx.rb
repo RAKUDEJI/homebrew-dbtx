@@ -2,9 +2,9 @@ class Dbtx < Formula
   desc "dbtx CLI (next-gen dbt-style tool)"
   homepage "https://github.com/RAKUDEJI/dbtx"
 url "https://github.com/RAKUDEJI/dbtx.git",
-    tag: "v0.3.15",
-    revision: "fb5ba1b4495f8566d19ca4fc101dc9273e6ba42a"
-version "0.3.15"
+    tag: "v0.0.1-alpha.1",
+    revision: "b05164e0575ec8546c70526074cc6b435b0163df"
+version "0.0.1-alpha.1"
   head "https://github.com/RAKUDEJI/dbtx.git", branch: "main"
 
   depends_on "rust" => :build

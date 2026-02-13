@@ -2,9 +2,9 @@ class DbtxDriverAdbc < Formula
   desc "ADBC runner support for dbtx (installs dbtx-runner-adbc)"
   homepage "https://github.com/RAKUDEJI/dbtx"
 url "https://github.com/RAKUDEJI/dbtx.git",
-    tag: "v0.3.9",
-    revision: "cc21bdd71193d29e172afc007d515ca804304fd3"
-version "0.3.9"
+    tag: "v0.0.1-alpha.1",
+    revision: "b05164e0575ec8546c70526074cc6b435b0163df"
+version "0.0.1-alpha.1"
   head "https://github.com/RAKUDEJI/dbtx.git", branch: "main"
 
   depends_on "dbtx"
