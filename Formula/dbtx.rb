@@ -3,7 +3,7 @@ class Dbtx < Formula
   homepage "https://github.com/RAKUDEJI/dbtx"
 url "https://github.com/RAKUDEJI/dbtx.git",
     tag: "v0.0.1-alpha.1",
-    revision: "b05164e0575ec8546c70526074cc6b435b0163df"
+    revision: "5fbf77a15635075c1694cb6aa0fac6297d7f1b6e"
 version "0.0.1-alpha.1"
   head "https://github.com/RAKUDEJI/dbtx.git", branch: "main"
 
